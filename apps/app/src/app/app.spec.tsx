@@ -20,8 +20,7 @@ describe('App', () => {
       </BrowserRouter>
     );
     expect(
-      getAllByText(new RegExp('Welcome @self-healing-ci-with-nx/app', 'gi'))
-        .length > 0
+      getAllByText(new RegExp('Welcome Superman Supply Store', 'gi')).length > 0
     ).toBeTruthy();
   });
 });
