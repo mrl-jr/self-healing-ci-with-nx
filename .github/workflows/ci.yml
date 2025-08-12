@@ -33,6 +33,9 @@ jobs:
 
       - run: npm ci --legacy-peer-deps
 
+      - name: Derive appropriate SHAs for base and head
+        uses: nrwl/nx-set-shas@v4
+
       - run: npx nx-cloud record -- nx format:check
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: npx nx-cloud record -- echo Hello World
