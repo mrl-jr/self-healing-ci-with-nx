@@ -1,10 +1,10 @@
 /// <reference types='vitest' />
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { reactRouter } from '@react-router/dev/vite';
 
 export default defineConfig(() => ({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/app',
+  cacheDir: '../../node_modules/.vite/apps/self-healing-ci-with-nx-2',
   server: {
     port: 4200,
     host: 'localhost',
@@ -13,7 +13,7 @@ export default defineConfig(() => ({
     port: 4300,
     host: 'localhost',
   },
-  plugins: [react()],
+  plugins: [!process.env.VITEST && reactRouter()],
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [ nxViteTsPaths() ],
@@ -27,6 +27,7 @@ export default defineConfig(() => ({
     },
   },
   test: {
+    name: '@self-healing-ci-with-nx-2/self-healing-ci-with-nx-2',
     watch: false,
     globals: true,
     environment: 'jsdom',

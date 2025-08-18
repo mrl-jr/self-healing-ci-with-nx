@@ -1,4 +1,4 @@
-# SelfHealingCiWithNx
+# SelfHealingCiWithNx2
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -8,7 +8,7 @@
 
 ## Finish your CI setup
 
-[Click here to finish setting up your workspace!](https://staging.nx.app/connect/FC0eoHHxUo)
+[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/1BqPQ8uKIJ)
 
 
 ## Run tasks
@@ -16,19 +16,19 @@
 To run the dev server for your app, use:
 
 ```sh
-npx nx serve app
+npx nx serve self-healing-ci-with-nx-2
 ```
 
 To create a production bundle:
 
 ```sh
-npx nx build app
+npx nx build self-healing-ci-with-nx-2
 ```
 
 To see all available targets to run for a project, run:
 
 ```sh
-npx nx show project app
+npx nx show project self-healing-ci-with-nx-2
 ```
 
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
