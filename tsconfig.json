@@ -4,7 +4,10 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/app"
+      "path": "./apps/self-healing-ci-with-nx-2-e2e"
+    },
+    {
+      "path": "./apps/self-healing-ci-with-nx-2"
     }
   ]
 }
