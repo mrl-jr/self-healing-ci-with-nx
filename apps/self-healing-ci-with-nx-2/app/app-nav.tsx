@@ -12,3 +12,14 @@ export function AppNav() {
     </nav>
   );
 }
+
+
+xport function NewNav() {
+  return (
+    <nav>
+      <NavLink to="/home" end>
+        Home
+      </NavLink>
+    </nav>
+  )
+}
