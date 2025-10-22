@@ -5,10 +5,11 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-export function NxWelcome({ title }: { title?: string }) {
+export function NxWelcome({ title }: { title: string }) {
   return (
     <>
       <style
+        dangerouslySetInnerHTML={{
         dangerouslySetInnerHTML={{
           __html: `
     html {
