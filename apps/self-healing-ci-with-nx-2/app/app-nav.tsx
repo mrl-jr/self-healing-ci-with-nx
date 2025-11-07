@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router';
 
-export function AppNav {
+export function AppNav() {
   return (
     <nav>
       <NavLink to="/" end>
