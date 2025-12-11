@@ -12,8 +12,8 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudUrl": "https://snapshot.nx.app",
-  "nxCloudId": "690b6ed5af8cfaccaeaf1983",
+  "nxCloudUrl": "http://localhost:4202",
+  "nxCloudId": "693aea77b5aaf6aa91996bdd",
   "plugins": [
     {
       "plugin": "@nx/js/typescript",
